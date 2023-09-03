@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-width: 100vh;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+
+.button-container {
+    text-align: center; 
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    display: inline-block; 
+    margin: 5px; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #6364643a;
+    color: black;
+    transition: background-color 0.3s ease;
+    font-size:  1.3rem;
+    border: 1px solid #0a0a0a;
+  }
+
+  .button-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Rechercher {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    
+  }
+  
+  #debutInput {
+    width: 100%;
+  }
+  
+  #finSpan {
+    display: block;
+    margin-top: 10px;
+  }
+  
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  .carte {
+    background-color: #030000;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .carte img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  p{
+    color: white;
+  }
+
+  h2{
+    color: white;
+  }
